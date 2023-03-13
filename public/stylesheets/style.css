@@ -6,3 +6,18 @@ body {
 a {
   color: #00B7FF;
 }
+
+#main-content {
+  border: 3px solid orange;
+  padding: 16px;
+}
+
+img {
+  width: 200px;
+}
+
+footer {
+  border: 3px solid lightgreen;
+  margin-top: 8px;
+  padding: 8px;
+}

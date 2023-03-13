@@ -6,4 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Blog' });
 });
 
+/* GET author page. */
+router.get('/author', function(req, res, next) {
+  res.render('author');
+});
+
 module.exports = router;
